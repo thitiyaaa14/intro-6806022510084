@@ -1,0 +1,74 @@
+body {
+      font-family: 'Kanit', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.8;
+      max-width: 80%;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  color: #222;
+  margin-bottom: 40px;
+  border-bottom: 5px solid #fd34dcc5;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.h1-wrapper {
+  text-align: center;
+}
+.image-row {
+      display: flex; 
+      justify-content: center; 
+      gap: 20px; 
+    }
+
+    .image-row img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover; 
+      border: 2px solid #ccc;
+      border-radius: 50px;
+    }
+    .profile-table {
+      width: 65%; 
+      margin: 0 auto; 
+      border-collapse: collapse;
+      background-color: #fcc0e1;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .profile-table th, .profile-table td {
+      padding: 12px;
+      border: 1px solid #f7a1d2;
+      text-align: center;
+    }
+
+    .profile-table th {
+      background-color: #f50ac2;
+      color: white;
+    }   
+     .student-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fdc4f2;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 50px;
+      overflow: hidden;
+    }
+
+    .student-table th, .student-table td {
+      padding: 12px;
+      border: 1px solid #fcbff2;
+      text-align: center;
+    }
+
+    .student-table th {
+      background-color: #f728b9;
+      color: white;
+    }
