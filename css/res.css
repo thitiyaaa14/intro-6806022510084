@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: #f5bee9;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: #b3e1f3;
+    padding: 10px;
+    flex: 50%;
+}
+@media (max-width:500px) {
+.flex-container{
+    flex-direction: column;
+}
+}
